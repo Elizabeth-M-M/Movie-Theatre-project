@@ -14,7 +14,7 @@ function displayMovies(movie) {
         <img src="${movie.poster}" alt="${movie.title}">
         <h5>${movie.title}</h5>
     </div>
-    // <div class="overlayDet">
+    // <div class="overlayDet seen">
     //     <p>${movie.description}</p>
     //     <button>More Info</button>
     // </div>`

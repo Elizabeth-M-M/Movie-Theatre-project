@@ -1,204 +1,204 @@
 {
   "movies": [
     {
-     "id": "1",
-     "title": "AVATAR: THE WAY OF WATER",
-     "runtime": "108",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009130.jpg"
-   },
+      "id": "1",
+      "title": "PUSS IN BOOTS: THE LAST WISH",
+      "runtime": "105",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 20,
+      "description": "Puss in Boots discovers that his passion for adventure has taken its toll: he has burned through eight of his nine lives. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00008978.jpg"
+    },
     {
-     "id": "2",
-     "title": "BLACK PANTHER: WAKANDA FOREVER",
-     "runtime": "108",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "The nation of Wakanda is pitted against intervening world powers as they mourn the loss of their king T'Challa.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009127.jpg"
-   },
+      "id": "2",
+      "title": "BLACK PANTHER: WAKANDA FOREVER",
+      "runtime": "108",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "The nation of Wakanda is pitted against intervening world powers as they mourn the loss of their king T'Challa.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009127.jpg"
+    },
     {
-     "id": "3",
-     "title": "PUSS IN BOOTS: THE LAST WISH",
-     "runtime": "105",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "Puss in Boots discovers that his passion for adventure has taken its toll: he has burned through eight of his nine lives. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00008978.jpg"
-   },
-   {
-     "id": "4",
-     "title": "BLACK ADAM",
-     "runtime": "125",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods-and imprisoned just as quickly-Black Adam (Johnson) is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009124.jpg"
-   },
-   {
-     "id": "5",
-     "title": "THE MENU",
-     "runtime": "105",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "A young couple travel to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009128.jpg"
-   },
-   {
-     "id": "6",
-     "title": "SWORD ART ONLINE THE MOVIE: PROGRESSIVE",
-     "runtime": "100",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "This anime movie spawned by the popular franchise focuses on Asuna and her friend Misumi as they find themselves trapped inside the VR death game Sword Art Online.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009830.jpg"
-   },
-   {
-     "id": "7",
+      "id": "3",
+      "title": "AVATAR: THE WAY OF WATER",
+      "runtime": "108",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 32,
+      "description": "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009130.jpg"
+    },
+    {
+      "id": "4",
+      "title": "BLACK ADAM",
+      "runtime": "125",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods-and imprisoned just as quickly-Black Adam (Johnson) is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009124.jpg"
+    },
+    {
+      "id": "5",
+      "title": "THE MENU",
+      "runtime": "105",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "A young couple travel to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009128.jpg"
+    },
+    {
+      "id": "6",
+      "title": "SWORD ART ONLINE THE MOVIE: PROGRESSIVE",
+      "runtime": "100",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 31,
+      "description": "This anime movie spawned by the popular franchise focuses on Asuna and her friend Misumi as they find themselves trapped inside the VR death game Sword Art Online.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009830.jpg"
+    },
+    {
+      "id": "7",
       "title": "PIL'S ADVENTURES",
-     "runtime": "90",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "A spunky young girl disguises herself as a princess in order to save the kingdom and the heir to the throne.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009879.jpg"
-   },
-   {
-     "id": "8",
+      "runtime": "90",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "A spunky young girl disguises herself as a princess in order to save the kingdom and the heir to the throne.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009879.jpg"
+    },
+    {
+      "id": "8",
       "title": "DRISHYAM 2",
-     "runtime": "155",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "7 years after the case related to Vijay Salgaonkar and his family was closed, a series of unexpected events bring a truth to light that threatens to change everything for the Salgaonkars. Can Vijay save his family this time?.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009694.jpg"
-   },
-   {
-     "id": "9",
+      "runtime": "155",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 31,
+      "description": "7 years after the case related to Vijay Salgaonkar and his family was closed, a series of unexpected events bring a truth to light that threatens to change everything for the Salgaonkars. Can Vijay save his family this time?.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009694.jpg"
+    },
+    {
+      "id": "9",
       "title": "VIOLENT NIGHT",
-     "runtime": "110",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "When a group of mercenaries attack the estate of a wealthy family, Santa Claus must step in to save the day (and Christmas).",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009566.jpg"
-   },
-   {
-     "id": "10",
+      "runtime": "110",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 30,
+      "description": "When a group of mercenaries attack the estate of a wealthy family, Santa Claus must step in to save the day (and Christmas).",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009566.jpg"
+    },
+    {
+      "id": "10",
       "title": "SUMMIT FEVER",
-     "runtime": "105",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "A daring dream to scale the world's most challenging trio of mountains soon turns into a terrifying nightmare for a group of friends when a deadly storm traps the climbers near the summit and cuts off all hope of rescue. The friends are forced to trust each other to save themselves by any means necessary.",
-     "poster": "https://assets.voxcinemas.com/posters/P_HO00009661.jpg"
-   },
-   {
-     "id": "11",
+      "runtime": "105",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "A daring dream to scale the world's most challenging trio of mountains soon turns into a terrifying nightmare for a group of friends when a deadly storm traps the climbers near the summit and cuts off all hope of rescue. The friends are forced to trust each other to save themselves by any means necessary.",
+      "poster": "https://assets.voxcinemas.com/posters/P_HO00009661.jpg"
+    },
+    {
+      "id": "11",
       "title": "Roald Dahl's Matilda the Musical",
-     "runtime": "117",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "An extraordinary girl with a sharp mind and vivid imagination takes a daring stand to change her story -- with miraculous results.",
-     "poster": "https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/200x0/v2/https://flxt.tmsimg.com/assets/p22454657_p_v13_aa.jpg"
-   },
-   {
-     "id": "12",
+      "runtime": "117",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 31,
+      "description": "An extraordinary girl with a sharp mind and vivid imagination takes a daring stand to change her story -- with miraculous results.",
+      "poster": "https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/200x0/v2/https://flxt.tmsimg.com/assets/p22454657_p_v13_aa.jpg"
+    },
+    {
+      "id": "12",
       "title": "To the End",
-     "runtime": "93",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "Filmed over four years of hope and crisis, TO THE END captures the emergence of a new generation of leaders and the movement behind the most sweeping climate change legislation in U.S. history.",
-     "poster": "https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/200x0/v2/https://resizing.flixster.com/NIOszt8c3kt2wKJRh9Sma7u8ba4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzBjNmE2M2VkLWE0YzEtNGU1Ny04YjdkLWRmYjI2OGMxMGY1Ny5qcGc="
-   },
-   {
-     "id": "13",
+      "runtime": "93",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "Filmed over four years of hope and crisis, TO THE END captures the emergence of a new generation of leaders and the movement behind the most sweeping climate change legislation in U.S. history.",
+      "poster": "https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/200x0/v2/https://resizing.flixster.com/NIOszt8c3kt2wKJRh9Sma7u8ba4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzBjNmE2M2VkLWE0YzEtNGU1Ny04YjdkLWRmYjI2OGMxMGY1Ny5qcGc="
+    },
+    {
+      "id": "13",
       "title": "Top Gun: Maverick",
-     "runtime": "105",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "Set 30 years after the events of `Top Gun` (1986), the sequel hinges on Captain Pete Mitchell`s (Tom Cruise) attempts to come to terms with his past, while training his friend`s son (Miles Teller) for a dangerous mission.",
-     "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00076943-smkpwvadsk-portrait.jpg"
-   },
-   {
-     "id": "14",
+      "runtime": "105",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "Set 30 years after the events of `Top Gun` (1986), the sequel hinges on Captain Pete Mitchell`s (Tom Cruise) attempts to come to terms with his past, while training his friend`s son (Miles Teller) for a dangerous mission.",
+      "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00076943-smkpwvadsk-portrait.jpg"
+    },
+    {
+      "id": "14",
       "title": "Paws of Fury: The Legend of Hank",
-     "runtime": "97",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "In this animated film, a loveable dog with dreams of becoming a samurai sets off on an epic journey to find his true destiny.",
-     "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00334053-ahwpyvmzzz-portrait.jpg"
-   },
-   {
-     "id": "15",
+      "runtime": "97",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 30,
+      "description": "In this animated film, a loveable dog with dreams of becoming a samurai sets off on an epic journey to find his true destiny.",
+      "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00334053-ahwpyvmzzz-portrait.jpg"
+    },
+    {
+      "id": "15",
       "title": "Strong Fathers, Strong Daughters",
-     "runtime": "94",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "A wealthy businessman learns what it means to be a good father for the first time ever, just as his daughter prepares for her impending nuptials.",
-     "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00345957-eytwrrgxfd-portrait.jpg"
-   },
-   {
-     "id": "16",
+      "runtime": "94",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "A wealthy businessman learns what it means to be a good father for the first time ever, just as his daughter prepares for her impending nuptials.",
+      "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00345957-eytwrrgxfd-portrait.jpg"
+    },
+    {
+      "id": "16",
       "title": "I Remember You",
-     "runtime": "105",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "This horror drama focuses on a couple`s nightmarish adventures in a small abandoned town with a dark history.",
-     "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC::q-80/et00304008-hqrcyyektj-portrait.jpg"
-   },
-   {
-     "id": "17",
+      "runtime": "105",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 30,
+      "description": "This horror drama focuses on a couple`s nightmarish adventures in a small abandoned town with a dark history.",
+      "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC::q-80/et00304008-hqrcyyektj-portrait.jpg"
+    },
+    {
+      "id": "17",
       "title": "Boxing Day",
-     "runtime": "109",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "Melvin`s (Aml Ameen) fairytale proposal to his girlfriend on Boxing Day goes spectacularly wrong, when he`s confronted with the ghosts of his past.",
-     "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00345359-dumepyjwqc-portrait.jpg"
-   },
-   {
-     "id": "18",
+      "runtime": "109",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "Melvin`s (Aml Ameen) fairytale proposal to his girlfriend on Boxing Day goes spectacularly wrong, when he`s confronted with the ghosts of his past.",
+      "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00345359-dumepyjwqc-portrait.jpg"
+    },
+    {
+      "id": "18",
       "title": "IT",
-     "runtime": "136",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "When children in town begin to disappear, a group of young kids is faced with their biggest fears as they square off against an evil clown named Pennywise.",
-     "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00051009-naezbkxaum-portrait.jpg"
-   },
-   {
-     "id": "19",
+      "runtime": "136",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 30,
+      "description": "When children in town begin to disappear, a group of young kids is faced with their biggest fears as they square off against an evil clown named Pennywise.",
+      "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00051009-naezbkxaum-portrait.jpg"
+    },
+    {
+      "id": "19",
       "title": "Hollow Man",
-     "runtime": "112",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "A brilliant scientist`s discovery renders him invisible, but transforms him into an omnipotent, dangerous megalomaniac.",
-     "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00302399-eypeetgrgk-portrait.jpg"
-   },
-   {
-     "id": "20",
+      "runtime": "112",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "A brilliant scientist`s discovery renders him invisible, but transforms him into an omnipotent, dangerous megalomaniac.",
+      "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00302399-eypeetgrgk-portrait.jpg"
+    },
+    {
+      "id": "20",
       "title": "Pinocchio: A True Story",
-     "runtime": "80",
-     "capacity": 30,
-     "showtime": "04:00PM",
-     "tickets_sold": 27,
-     "description": "Young Pinocchio runs away from home to see the world and becomes the main attraction of a travelling circus. He falls for the ringmaster's daughter and longs to become human.",
-     "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00345251-mnvchzufvv-portrait.jpg"
-   }
+      "runtime": "80",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "Young Pinocchio runs away from home to see the world and becomes the main attraction of a travelling circus. He falls for the ringmaster's daughter and longs to become human.",
+      "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00345251-mnvchzufvv-portrait.jpg"
+    }
   ]
 }

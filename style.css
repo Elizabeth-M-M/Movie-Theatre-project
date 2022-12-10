@@ -17,7 +17,10 @@
     --text: 1.6rem;
     --round-radius: 3rem;
     --regular-radius: 0.5rem;
-    --card-shadow:0 1rem 1.5rem rgba(73, 72, 69, 0.4);
+    --card-shadow:0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(243, 223, 204, 0.4),
+            2px 4px 8px 0px rgba(243, 223, 204, 0.4),
+            2px 4px 16px 0px rgba(105, 104, 39, 0.4);
 }
 
 * {
@@ -36,6 +39,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     line-height: 1.8;
+    overflow: hidden;
 }
 nav{
     font-size: 3rem;
@@ -47,13 +51,17 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 nav span{
-    font-size: 4.3rem;
-    text-transform: uppercase;
+    font-size: 6rem;
     color: var(--colmedium);
   }
+nav h3{
+  transform: translatey(25%);
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -73,15 +81,16 @@ header{
     width: 100%;
     text-transform: uppercase;
     list-style: none;
-    padding: 0.4rem 1rem;
+    padding: 0.3rem 1rem;
 }
 #list li:hover {
     background-color: var(--colcontrast2);
     cursor: pointer;
+    padding: 0.3rem 1.4rem;
 }
 .main-content{
   flex-basis: 70%;
-  margin: 4rem auto;
+  margin: 6rem auto;
   position: relative;
 }
 .container-dits{
@@ -97,12 +106,16 @@ img {
     width: 90%;
     height: 80%;
     border-radius: var(--regular-radius);
+    box-shadow: var(--card-shadow);
+    /* box-shadow: 5px 10px rgba(136, 136, 136, 0.5); */
 }
 .container-content{
     background-color: var(--colcontrast2);
     flex-basis: 50%;
     border-radius: var(--regular-radius);
+    box-shadow:var(--card-shadow);
     overflow: hidden;
+
 }
 .container-content-header{
     color: var(--coldark);
@@ -143,28 +156,26 @@ img {
 .buyTicket:hover{
     background-color: var(--collight);
 }
-/* 
+.img-size{
+  width:40%;
+  height: 40%;
+  margin-top: 6rem;
+}
 
-
-
-
-
-
-
-
-.temp-layout div{
+.temp-layout {
     color: var(--colcontrast2);
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     line-height: 1.2;
     font-weight: 600;
-    width: 35%;
-    height: 40%;
     margin: 2rem;
     text-align: center;
+    text-transform: uppercase;
 }
 .temp-layout span{
-    font-size: 3rem;
+    font-size: 5rem;
 }
+/*
+
 
 .temp-layout img{
 width: 35%;

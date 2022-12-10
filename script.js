@@ -9,17 +9,25 @@ function getMovies() {
 }
 
 function displayMovies(movie) {
+    let images = document.querySelectorAll(".img-container.img-size");    
     let ul = document.querySelector('#list');
     let li = document.createElement('li');
     li.innerHTML = movie.title;
-    console.log(movie.title)
     ul.appendChild(li);
     li.addEventListener('click', (event) => {
         if (event.target.innerHTML === movie.title) {
-            // console.log(movie)
             displayMovieChange(movie)
         }
     })
+    images.forEach((img) => {
+      img.addEventListener("click", (event) => {
+        //   console.log(event.target.parentElement.id);
+        //   console.log(movie.id);
+        if (event.target.parentElement.id === movie.id) {
+          displayMovieChange(movie);
+        }
+      });
+    }); 
 }
 function displayMovieChange(selectedMovie) {
     let containerContents = document.querySelector('.container-dits');
@@ -27,7 +35,7 @@ function displayMovieChange(selectedMovie) {
     let ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
     console.log(ticketsAvail)
 
-    if (ticketsAvail<=0) {
+    if (ticketsAvail<1) {
         ticketsAvail = 0;
     } else {
        ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
@@ -54,7 +62,7 @@ function displayMovieChange(selectedMovie) {
 
    let buy = document.querySelector('#buyTicket');
     buy.addEventListener('click', (event) => {
-        if (ticketsAvail <= 0) {
+        if (ticketsAvail < 1) {
             buy.style.backgroundColor = "red";
             buy.style.color = "white";
             buy.innerHTML = "Sold Out";

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     getMovies();
-    
+
 })
 function getMovies() {
     fetch('http://localhost:3000/movies').then(resp => resp.json()).then(movies => {
@@ -12,67 +12,71 @@ function displayMovies(movie) {
     let ul = document.querySelector('#list');
     let li = document.createElement('li');
     li.innerHTML = movie.title;
+    console.log(movie.title)
     ul.appendChild(li);
     li.addEventListener('click', (event) => {
         if (event.target.innerHTML === movie.title) {
+            // console.log(movie)
             displayMovieChange(movie)
         }
     })
 }
 function displayMovieChange(selectedMovie) {
     let containerContents = document.querySelector('.container-dits');
-    let ticketsAvail;
-    
-    if (selectedMovie.tickets_sold===selectedMovie.capacity) {
-        ticketsAvail = 0
+
+    let ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
+    console.log(ticketsAvail)
+
+    if (ticketsAvail<=0) {
+        ticketsAvail = 0;
     } else {
        ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
     }
-    
-    
+
+
     containerContents.innerHTML = `
             <div class="container-img">
-                    <img src="${selectedMovie.poster}" alt="${selectedMovie.title}">
+                <img src="${selectedMovie.poster}" alt="${selectedMovie.title}">
+            </div>
+            <div class="container-content">
+                <div class="container-content-header">
+                    <h4>${selectedMovie.title}</h4>
+                    <p><span>94</span> min</p>
                 </div>
-                <div class="container-content">
-                    <div class="container-content-header">
-                        <h4>${selectedMovie.title}</h4>
-                        <p><span>94</span> min</p>
-                    </div>
-                    <div class="container-content-details">
-                        <p>${selectedMovie.description}</p>
-                        <button id="time">${selectedMovie.showtime}</button>
-                        <button id="ticketNumber"><span>${ticketsAvail}</span>remaining tickets</button>
-                        <button id="buyTicket">Buy Ticket</button>
-                    </div>
-                    `
-    let buy = document.querySelector('#buyTicket');
-    if (ticketsAvail <= 0) {
-        buy.innerHTML = "Sold Out";
-        buy.style.backgroundColor = "red"; 
-        selectedMovie.tickets_sold = 0;
-    } else {
-         buy.addEventListener('click', (event) => {
-        console.log(selectedMovie.tickets_sold)
+                <div class="container-content-details">
+                    <p>${selectedMovie.description}</p>
+                    <button id="time">${selectedMovie.showtime}</button>
+                    <button id="ticketNumber" class="soldOut"><span>${ticketsAvail}</span>remaining tickets</button>
+                    <button id="buyTicket" class="buyTicket">Buy Ticket</button>
+                </div>
+            </div>
+                    `;
+
+   let buy = document.querySelector('#buyTicket');
+    buy.addEventListener('click', (event) => {
+        if (ticketsAvail <= 0) {
+            buy.style.backgroundColor = "red";
+            buy.style.color = "white";
+            buy.innerHTML = "Sold Out";
+            selectedMovie.tickets_sold=0
+        } else {
+            console.log(selectedMovie.tickets_sold)
        parseInt(selectedMovie.tickets_sold, 10)
        selectedMovie.tickets_sold++
-        
+
 
         console.log("sold"+selectedMovie.tickets_sold)
         ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
         document.querySelector("#ticketNumber span").innerHTML = ticketsAvail;
         console.log(typeof selectedMovie.tickets_sold)
        updateServerOnTicketsAvail(selectedMovie)
-        
+             }
+
+
     })
     }
-    
-    
-    
-    
-    
-    
-}
+
+
 function updateServerOnTicketsAvail(movie) {
     fetch(`http://localhost:3000/movies/${movie.id}`, {
         method: 'PATCH',

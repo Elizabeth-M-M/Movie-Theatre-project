@@ -6,7 +6,7 @@
       "runtime": "105",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 20,
+      "tickets_sold": 0,
       "description": "Puss in Boots discovers that his passion for adventure has taken its toll: he has burned through eight of his nine lives. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
       "poster": "https://assets.voxcinemas.com/posters/P_HO00008978.jpg"
     },
@@ -14,9 +14,9 @@
       "id": "2",
       "title": "BLACK PANTHER: WAKANDA FOREVER",
       "runtime": "108",
-      "capacity": 30,
+      "capacity": 0,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 25,
       "description": "The nation of Wakanda is pitted against intervening world powers as they mourn the loss of their king T'Challa.",
       "poster": "https://assets.voxcinemas.com/posters/P_HO00009127.jpg"
     },
@@ -36,7 +36,7 @@
       "runtime": "125",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 22,
       "description": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods-and imprisoned just as quickly-Black Adam (Johnson) is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
       "poster": "https://assets.voxcinemas.com/posters/P_HO00009124.jpg"
     },
@@ -46,7 +46,7 @@
       "runtime": "105",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 8,
       "description": "A young couple travel to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
       "poster": "https://assets.voxcinemas.com/posters/P_HO00009128.jpg"
     },
@@ -56,7 +56,7 @@
       "runtime": "100",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 31,
+      "tickets_sold": 12,
       "description": "This anime movie spawned by the popular franchise focuses on Asuna and her friend Misumi as they find themselves trapped inside the VR death game Sword Art Online.",
       "poster": "https://assets.voxcinemas.com/posters/P_HO00009830.jpg"
     },
@@ -66,7 +66,7 @@
       "runtime": "90",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 10,
       "description": "A spunky young girl disguises herself as a princess in order to save the kingdom and the heir to the throne.",
       "poster": "https://assets.voxcinemas.com/posters/P_HO00009879.jpg"
     },
@@ -76,7 +76,7 @@
       "runtime": "155",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 31,
+      "tickets_sold": 2,
       "description": "7 years after the case related to Vijay Salgaonkar and his family was closed, a series of unexpected events bring a truth to light that threatens to change everything for the Salgaonkars. Can Vijay save his family this time?.",
       "poster": "https://assets.voxcinemas.com/posters/P_HO00009694.jpg"
     },
@@ -86,7 +86,7 @@
       "runtime": "110",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 30,
+      "tickets_sold": 9,
       "description": "When a group of mercenaries attack the estate of a wealthy family, Santa Claus must step in to save the day (and Christmas).",
       "poster": "https://assets.voxcinemas.com/posters/P_HO00009566.jpg"
     },
@@ -106,7 +106,7 @@
       "runtime": "117",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 31,
+      "tickets_sold": 30,
       "description": "An extraordinary girl with a sharp mind and vivid imagination takes a daring stand to change her story -- with miraculous results.",
       "poster": "https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/200x0/v2/https://flxt.tmsimg.com/assets/p22454657_p_v13_aa.jpg"
     },
@@ -116,7 +116,7 @@
       "runtime": "93",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 19,
       "description": "Filmed over four years of hope and crisis, TO THE END captures the emergence of a new generation of leaders and the movement behind the most sweeping climate change legislation in U.S. history.",
       "poster": "https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/200x0/v2/https://resizing.flixster.com/NIOszt8c3kt2wKJRh9Sma7u8ba4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzBjNmE2M2VkLWE0YzEtNGU1Ny04YjdkLWRmYjI2OGMxMGY1Ny5qcGc="
     },
@@ -126,7 +126,7 @@
       "runtime": "105",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 0,
       "description": "Set 30 years after the events of `Top Gun` (1986), the sequel hinges on Captain Pete Mitchell`s (Tom Cruise) attempts to come to terms with his past, while training his friend`s son (Miles Teller) for a dangerous mission.",
       "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00076943-smkpwvadsk-portrait.jpg"
     },
@@ -136,7 +136,7 @@
       "runtime": "97",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 30,
+      "tickets_sold": 0,
       "description": "In this animated film, a loveable dog with dreams of becoming a samurai sets off on an epic journey to find his true destiny.",
       "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00334053-ahwpyvmzzz-portrait.jpg"
     },
@@ -146,7 +146,7 @@
       "runtime": "94",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 0,
       "description": "A wealthy businessman learns what it means to be a good father for the first time ever, just as his daughter prepares for her impending nuptials.",
       "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00345957-eytwrrgxfd-portrait.jpg"
     },
@@ -176,7 +176,7 @@
       "runtime": "136",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 30,
+      "tickets_sold": 16,
       "description": "When children in town begin to disappear, a group of young kids is faced with their biggest fears as they square off against an evil clown named Pennywise.",
       "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00051009-naezbkxaum-portrait.jpg"
     },
@@ -186,7 +186,7 @@
       "runtime": "112",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 12,
       "description": "A brilliant scientist`s discovery renders him invisible, but transforms him into an omnipotent, dangerous megalomaniac.",
       "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00302399-eypeetgrgk-portrait.jpg"
     },
@@ -196,7 +196,7 @@
       "runtime": "80",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 27,
+      "tickets_sold": 15,
       "description": "Young Pinocchio runs away from home to see the world and becomes the main attraction of a travelling circus. He falls for the ringmaster's daughter and longs to become human.",
       "poster": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@bms_premiere_v1.png,oit-false,ofo-bottom_left:q-80/et00345251-mnvchzufvv-portrait.jpg"
     }

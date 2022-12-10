@@ -76,12 +76,13 @@ function displayMovieChange(selectedMovie) {
             selectedMovie.tickets_sold++;
             ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
             document.querySelector("#ticketNumber span").innerHTML = ticketsAvail;
+            // To update our server, we'd call on the PATCH fetch request method
             updateServerOnTicketsAvail(selectedMovie)
              }
         })
     }
 
-
+// Our fetch request updates on a specific property in the movie
 function updateServerOnTicketsAvail(movie) {
     fetch(`http://localhost:3000/movies/${movie.id}`, {
         method: 'PATCH',

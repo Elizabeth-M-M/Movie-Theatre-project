@@ -11,7 +11,7 @@ This is a mini web app that shows the movies being shown in the Flatdango theatr
 After clicking the "Buy Ticket" button, the number of available tickets decreases on the frontend. One is also not be able to buy a ticket if the showing is sold out.
 
 ### Set up
-####DB.JSON
+#### DB.JSON
 This project required a set up of a local server to store our movie house data. You need to run the server to access the data, so I create a .json file and added data to it.
 Once the page loads, the web page fetches data from the local server and displays a list.
 

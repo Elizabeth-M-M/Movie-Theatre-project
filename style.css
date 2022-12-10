@@ -2,20 +2,12 @@
 :root {
     font-size: 62.5%;
 
-    --coldark: #0c0c0e;
-    --collight: rgb(243, 223, 204);
-    --colmedium: #1f2524;
-    --colwhite: #fff;
-    --colblack: rgb(0, 0, 0);
-    --colblackGradient: rgb(0, 0, 0, 0.8);
-    --colcontrast: rgb(12, 233, 185);
+    --coldark: #0c0c0c;
+    --collight: rgb(189, 185, 185);
+    --colmedium: #242525;
     --colcontrast2: rgb(180, 134, 8);
-    --colgradient: linear-gradient(150deg, rgba(83, 153, 135, 1) 0%, rgba(254, 254, 254, 1) 100%);
 
     --button-padding: 0.3rem 1rem;
-    --section: 2rem;
-    --text: 1.6rem;
-    --round-radius: 3rem;
     --regular-radius: 0.5rem;
     --card-shadow:0px 1px 2px 0px rgba(0,255,255,0.7),
             1px 2px 4px 0px rgba(243, 223, 204, 0.4),
@@ -35,7 +27,7 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./images/movieposter.jpg);
     background-position:90% 80%;
     background-size: cover;
-    color: var(--colwhite);
+    color: var(--collight);
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     line-height: 1.8;
@@ -71,11 +63,14 @@ header{
 .moviesList{
     background-color: var(--coldark);
     flex-basis: 25%;
+    box-shadow: 2px 0px 0px 0px var(--collight);
 }
 .moviesList h5{
     font-size: 2rem;
     margin: 1rem;
     text-align: center;
+    color: var(--colcontrast2);
+    line-height: 1.1;
 }
 #list li{
     width: 100%;
@@ -87,6 +82,7 @@ header{
     background-color: var(--colcontrast2);
     cursor: pointer;
     padding: 0.3rem 1.4rem;
+    color: var(--coldark);
 }
 .main-content{
   flex-basis: 70%;
@@ -119,7 +115,7 @@ img {
 }
 .container-content-header{
     color: var(--coldark);
-    padding: 0.5rem 2rem;
+    padding: 1rem 2rem;
     font-weight: 600;
 }
 .container-content-header h4{
@@ -174,44 +170,54 @@ img {
 .temp-layout span{
     font-size: 5rem;
 }
-/*
 
-
-.temp-layout img{
-width: 35%;
-height: 40%;
-margin: 2rem;
-cursor: pointer;
+@media (max-width:60rem) {
+  body{
+    overflow: visible;
+    font-size: 1.4rem;
+  }
+.moviesList{
+    /* width: 40%; */
+    /* flex-basis: 15%; */
+    
 }
-@media (max-width:38rem) {
-    header {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 10% 60%;
+.main-content{
+  flex-basis: 70%;
+  margin: 6rem auto;
+  position: relative;
+}
+.container-dits{
+  flex-direction: column;
+}
+.container-content{
+ flex-basis: 30%;
+ width: 80%;
 
-        }
-    .moviesList #list {
-                    overflow: scroll;
-        }
-    .moviesList #list {
-            overflow: scroll;
-        }
-    .container-dits {
-            padding: 1.4rem;
-            width: 100%;
-
-        }
-    .container-img {
-            width: 40%;
-            height: 60%;
-        }
-    .container-content{
-width: 20rem;
-    }
-    .container-content p{
-           font-size: 0.7rem;
-
-
-
-        }
-}  */
+}
+.container-img {
+    flex-basis: 30%;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+img {
+    width: 100%;
+    height: 60%;
+}
+nav{
+  font-size: 2rem;
+}
+nav span{
+    font-size: 4rem;
+    color: var(--colmedium);
+  }
+nav h3{
+  transform: translatey(0);
+}
+.temp-layout{
+  font-size: 2.4rem;
+}
+.container-content-header h4{
+    line-height: 1.2;
+    font-size: 2rem;
+}
+}  

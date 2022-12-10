@@ -1,12 +1,12 @@
+/* Poppins font style link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* root specs */
 :root {
     font-size: 62.5%;
-
     --coldark: #0c0c0c;
     --collight: rgb(189, 185, 185);
     --colmedium: #242525;
     --colcontrast2: rgb(180, 134, 8);
-
     --button-padding: 0.3rem 1rem;
     --regular-radius: 0.5rem;
     --card-shadow:0px 1px 2px 0px rgba(0,255,255,0.7),
@@ -14,13 +14,12 @@
             2px 4px 8px 0px rgba(243, 223, 204, 0.4),
             2px 4px 16px 0px rgba(105, 104, 39, 0.4);
 }
-
+/* apply to all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     height: 100vh;
     width: 100vw;
@@ -33,6 +32,7 @@ body {
     line-height: 1.8;
     overflow: hidden;
 }
+/* nav section */
 nav{
     font-size: 3rem;
     line-height: 1.1;
@@ -46,7 +46,6 @@ nav{
     text-transform: uppercase;
     text-align: center;
 }
-
 nav span{
     font-size: 6rem;
     color: var(--colmedium);
@@ -61,12 +60,14 @@ nav h4{
 h4 span{
   color: var(--collight);
 }
+/* header section */
 header{
     display: flex;
     justify-content: space-between;
     align-items: start;
     flex: 1;
 }
+/* movie list section on the side */
 .moviesList{
     background-color: var(--coldark);
     flex-basis: 25%;
@@ -91,6 +92,7 @@ header{
     padding: 0.3rem 1.4rem;
     color: var(--coldark);
 }
+/* main content section for the image display */
 .main-content{
   flex-basis: 70%;
   margin: 6rem auto;
@@ -110,7 +112,6 @@ img {
     height: 80%;
     border-radius: var(--regular-radius);
     box-shadow: var(--card-shadow);
-    /* box-shadow: 5px 10px rgba(136, 136, 136, 0.5); */
 }
 .container-content{
     background-color: var(--colcontrast2);
@@ -118,8 +119,7 @@ img {
     border-radius: var(--regular-radius);
     box-shadow:var(--card-shadow);
     overflow: hidden;
-
-}
+  }
 .container-content-header{
     color: var(--coldark);
     padding: 1rem 2rem;
@@ -163,6 +163,7 @@ img {
   background-color: rgb(156, 7, 7);
   color: var(--collight);
 }
+/* loaded images and wordings on the content screen */
 .img-size{
   width:40%;
   height: 40%;
@@ -182,54 +183,47 @@ img {
 .temp-layout span{
     font-size: 5rem;
 }
-
+/* For screens less than 600px */
 @media (max-width:60rem) {
   body{
     overflow: visible;
     font-size: 1.4rem;
   }
-.moviesList{
-    /* width: 40%; */
-    /* flex-basis: 15%; */
-    
-}
-.main-content{
-  flex-basis: 70%;
-  margin: 6rem auto;
-  position: relative;
-}
-.container-dits{
-  flex-direction: column;
-}
-.container-content{
- flex-basis: 30%;
- width: 80%;
-
-}
-.container-img {
+  .main-content{
+    flex-basis: 70%;
+    margin: 6rem auto;
+  }
+  .container-dits{
+    flex-direction: column;
+  }
+  .container-content{
+    flex-basis: 30%;
+    width: 80%;
+  }
+  .container-img {
     flex-basis: 30%;
     width: 60%;
     margin-bottom: 1rem;
-}
-img {
+  }
+  img {
     width: 100%;
     height: 60%;
-}
-nav{
-  font-size: 2rem;
-}
-nav span{
+  }
+  nav{
+    font-size: 2rem;
+  }
+  nav span{
     font-size: 4rem;
     color: var(--colmedium);
   }
-nav h3{
-  transform: translatey(0);
-}
-.temp-layout{
-  font-size: 2.4rem;
-}
-.container-content-header h4{
+  nav h3{
+    transform: translatey(0);
+  }
+  .temp-layout{
+    font-size: 2.4rem;
+  }
+  .container-content-header h4{
     line-height: 1.2;
     font-size: 2rem;
+  }
 }
-}  

@@ -54,6 +54,13 @@ nav span{
 nav h3{
   transform: translatey(25%);
 }
+nav h4{
+  font-size: 1.4rem;
+  color: var(--colmedium);
+}
+h4 span{
+  color: var(--collight);
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -152,10 +159,15 @@ img {
 .buyTicket:hover{
     background-color: var(--collight);
 }
+.buyTicket.allout{
+  background-color: red;
+  color: var(--collight);
+}
 .img-size{
   width:40%;
   height: 40%;
   margin-top: 6rem;
+  cursor: pointer;
 }
 
 .temp-layout {

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     getMovies();
-
 })
+
 // GET data to display to screen
 function getMovies() {
     fetch('http://localhost:3000/movies').then(resp => resp.json()).then(movies => {
@@ -23,7 +23,7 @@ function displayMovies(movie) {
             displayMovieChange(movie)
         }
     })
-    // Targeting images on the loading screen to display movies when clicked
+    // Targeting images on the loaded screen to display movies when clicked
     images.forEach((img) => {
       img.addEventListener("click", (event) => {
         if (event.target.parentElement.id === movie.id) {
@@ -38,13 +38,8 @@ function displayMovieChange(selectedMovie) {
     let containerContents = document.querySelector('.container-dits');
     // Calculating tickets available for sale. assumption is that the movie theatre full capacity is 30 seats
     let ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
-
-    if (ticketsAvail<1) {
-        ticketsAvail = 0;
-    } else {
-       ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
-    }
-// Displaying contents
+    ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
+    // Displaying contents
     containerContents.innerHTML = `
             <div class="container-img">
                 <img src="${selectedMovie.poster}" alt="${selectedMovie.title}">
@@ -62,7 +57,7 @@ function displayMovieChange(selectedMovie) {
                 </div>
             </div>
                     `;
-// Buying tickets
+    // Buying tickets
    let buy = document.querySelector('#buyTicket');
    if(ticketsAvail<1){
     buy.innerHTML = "Sold Out";

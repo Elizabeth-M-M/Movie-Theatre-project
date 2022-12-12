@@ -38,8 +38,7 @@ function displayMovieChange(selectedMovie) {
     let containerContents = document.querySelector('.container-dits');
     // Calculating tickets available for sale. assumption is that the movie theatre full capacity is 30 seats
     let ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
-    ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
-    // Displaying contents
+        // Displaying contents
     containerContents.innerHTML = `
             <div class="container-img">
                 <img src="${selectedMovie.poster}" alt="${selectedMovie.title}">
@@ -58,19 +57,25 @@ function displayMovieChange(selectedMovie) {
             </div>
                     `;
     // Buying tickets
-   let buy = document.querySelector('#buyTicket');
-   if(ticketsAvail<1){
-    buy.innerHTML = "Sold Out";
-    buy.classList.add('allout');
-   }
+   let buy = document.querySelector('#buyTicket'); 
+    if(ticketsAvail<1){
+                buy.innerHTML = "Sold Out";
+                buy.classList.add('allout');
+            }
     buy.addEventListener('click', (event) => {
         if (ticketsAvail < 1) {
-            selectedMovie.tickets_sold = 0
+            selectedMovie.tickets_sold = 30;
+            
+            updateServerOnTicketsAvail(selectedMovie)
         } else {
             parseInt(selectedMovie.tickets_sold, 10)
             selectedMovie.tickets_sold++;
             ticketsAvail = selectedMovie.capacity - selectedMovie.tickets_sold;
             document.querySelector("#ticketNumber span").innerHTML = ticketsAvail;
+            if(ticketsAvail<1){
+                buy.innerHTML = "Sold Out";
+                buy.classList.add('allout');
+            }
             // To update our server, we'd call on the PATCH fetch request method
             updateServerOnTicketsAvail(selectedMovie)
              }

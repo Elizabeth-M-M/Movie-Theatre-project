@@ -116,10 +116,11 @@ img {
 }
 .container-content{
     background-color: var(--colcontrast2);
-    flex-basis: 50%;
+    flex-basis: 45%;
     border-radius: var(--regular-radius);
     box-shadow:var(--card-shadow);
     height: 60vh;
+    max-height: 80rem;
     overflow: hidden;
   }
 .container-content-header{
@@ -176,6 +177,7 @@ img {
   width:40%;
   height: 40%;
   margin-top: 6rem;
+  margin-right: 1.5rem;
   cursor: pointer;
 }
 
@@ -192,7 +194,8 @@ img {
     font-size: 5rem;
 }
 /* For screens less than 600px */
-@media (max-width:60rem) {
+
+@media (max-width:62rem) {
   body{
     overflow: visible;
     font-size: 1.4rem;

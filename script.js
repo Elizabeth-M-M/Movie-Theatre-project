@@ -50,9 +50,11 @@ function displayMovieChange(selectedMovie) {
                 </div>
                 <div class="container-content-details">
                     <p>${selectedMovie.description}</p>
+                    <div>
                     <button id="time">${selectedMovie.showtime}</button>
                     <button id="ticketNumber" class="soldOut"><span>${ticketsAvail}</span>remaining tickets</button>
                     <button id="buyTicket" class="buyTicket">Buy Ticket</button>
+                    </div>
                 </div>
             </div>
                     `;

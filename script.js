@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // GET data to display to screen
 function getMovies() {
-    fetch('http://localhost:3000/movies').then(resp => resp.json()).then(movies => {
+    fetch('https://json-server-vercel-teal.vercel.app/movies').then(resp => resp.json()).then(movies => {
         movies.forEach(movie => displayMovies(movie))
     })
 }
@@ -86,7 +86,7 @@ function displayMovieChange(selectedMovie) {
 
 // Our fetch request updates on a specific property in the movie
 function updateServerOnTicketsAvail(movie) {
-    fetch(`http://localhost:3000/movies/${movie.id}`, {
+    fetch(`https://json-server-vercel-teal.vercel.app/movies/${movie.id}`, {
         method: 'PATCH',
         headers: {
             'Content-Type':'application/json'
